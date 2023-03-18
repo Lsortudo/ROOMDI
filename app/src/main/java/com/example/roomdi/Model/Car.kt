@@ -7,5 +7,5 @@ import androidx.room.PrimaryKey
 data class Car (
     @PrimaryKey(autoGenerate = true) var id: Int?,
     val name: String,
-    val price: Int,
+    val price: String,
     )
