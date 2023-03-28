@@ -19,3 +19,5 @@ val repositoryModule = module {
 val daoModule = module {
     single { CarDatabase.getDatabase(androidContext()).getCarDao() }
 }
+
+/**TESTE CODE REVIEW*/
